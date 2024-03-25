@@ -71,7 +71,7 @@ const PetShopCard = () => {
                     onChange={(e) => setBigDogs(Number(e.target.value))}
                 />
             </div>
-            <button type="submit">Enviar Consulta</button>
+            <button type="submit">Melhor PetShop</button>
         </form>
     );
 };

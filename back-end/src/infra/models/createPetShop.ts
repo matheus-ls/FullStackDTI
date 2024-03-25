@@ -1,6 +1,7 @@
 import { FastifyReply, FastifyRequest } from "fastify";
-import { GetPetShopController } from "../../controllers/GetPetShopsController";
+
+import { CreatePetShopController } from "../../controllers/CreatePetShopController";
 
 export async function createPetShop(request: FastifyRequest, response: FastifyReply) {
-    return new GetPetShopController().getPetShops(request, response);
+    return new CreatePetShopController().createPetShop(request, response);
 }
